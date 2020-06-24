@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<head><script>https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js</script>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+<style>
+.header {
+text-align: center;
+font-family: Open Sans, sans-serif;
+  margin: 5px;
+}
+.img {
+text-align: center;
+  max-width: 100%;
+  height: auto;
+}
+.caption {
+  text-align: center;
+  font-family: Open Sans, sans-serif;
+  margin: 5px;
+}
+p {
+text-align: left-justify;
+font-family: Open Sans, sans-serif;
+  margin: 5px;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+.background {
+  background: lightGray;
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  border-radius: 10px;
+}
+.text {
+  background: white;
+  width: 98%;
+  display: grid;
+  justify-items: center;
+  border-radius: 10px;
+}
+.image {
+  background: lightGray;
+  width: 97%;
+  border-radius: 10px;
+  padding: 5px;
+}
+</style></head>
+<!-- Head above, body below -->
+<main class="background" id="main">
+<h1 class="header" id="title">Lech, Czech, and Rus</h1>
+  <h2 class="header">Founding Myth of Poland and the Czech Republic</h2>
+<div class="text">
+  <p></p>
+  <div class="image" id="img-div">
+    <p class="img"><a href="https://commons.wikimedia.org/wiki/File:Lech_111.PNG#/media/File:Lech_111.PNG"><img id="image" src="https://upload.wikimedia.org/wikipedia/commons/a/ad/Lech_111.PNG" alt="Lech 111.PNG"></a></p>
+    <p class="caption" id="img-caption"><i>Lech, Czech, Rus, and the White Eagle</i><br>(as painted by Walery Eljasz-Radzikowsky)</p>
+  </div>
+  <div id="tribute-info">
+    <h3 class="header">The Story of Lech, Czech, and Rus</h3>
+  <p>Once upon a time, on the far side of the Tatra Mountains, there was a land known as Charvátská. Charvátská was a land settled by many different tribes, but tribes all related by language, manners, and ways of life. Now the king of this land had three sons, all great princes. Their names were Lech, Czech, and Rus.</p>
+    <p>To the northwest of Charvátská, between the Vistula and Oder rivers, lay the country of the Goths. As the Goths became more numerous, they began to migrate out of their homeland. Some of these, the Greuthungi, followed the spine of the Tatras into Charvátská. They brought with them war and famine and devastation. In a great battle, the Greuthungi king, Ermanaric, slew Charvátská’s king, destroyed the kingdom, and set up the land of Oium in its place. Lech, Czech, and Rus gathered together Charvátská’s survivors, the Sclavoi people, and resolved to flee from Ermanaric’s despotism.</p>
+    <p>Soon enough, however, the brothers quarreled. Lech and Czech wished to head west, into the forested Carpathians the Greuthungi feared and called “Mirkwood”, while Rus wished to head into the bleak Pripyat Marshes to Oium’s northeast. Eventually, the brothers decided to split up. Rus led half the Sclavoi into the Pripyat Marshes, where they dwelt and were safe even as Attila the Hun defeated Ermanaric on the field of battle just as Ermanaric had defeated the king of Charvátská. Lech and Czech, meanwhile, led their half of the Sclavoi into the Carpathians.</p>
+    <p>On the far side of the Carpathians, in the land of Transylvania, Lech and Czech found the land densely inhabited by Dacians. The brothers elected to follow the mountain road further northwest, into the shadow of the High Tatras. There, Lech and Czech became lost from each other: Lech had followed the mountains’ north side, and Czech their south side. Though they tried to find each other again, it was no use: it was as if the spirits of the mountains had resolved to keep them apart from one another.</p>
+    <p>The sun was setting, the sky glowing red. Near a pool of cold, sweet water—the source of the Vistula—Lech saw a great bird up the mountain and decided to hunt it. He loosed his arrows and gave chase. As he climbed the last scree, he saw this was no ordinary bird. Protecting its nest was a great white eagle, the size of a roc. The eagle glowed white against the red of the sunset. And it looked at Lech and said:</p>
+    <p>“I am the spirit of these mountains. By my will, you have lost your brother Czech forever. Look upon the plains to your north, watered by the Vistula. The Goths abandoned this land to attack your own. It is vacant now. Take your people and settle this land. Your descendants, the Piasts and Jagellonians, will become great kings over many peoples. I am the king of the Tatras. My word is law.”</p>
+    <p>Thus did Lech come to found Poland.</p>
+    <p>Meanwhile, as Czech sought his brother Lech, he became ever more lost in the maze of mountains on the Tatras’ south side. Some of his followers, too, became lost. These became the Slovaks. As Czech blundered, lost, in the mountains, the Tatras gave way to the Sudetes. At last he came to a great, wide, unpeopled plain watched over by a monadnock in its middle. This was the land of Bohemia.</p>
+    <p>Czech ascended the monadnock, which he called Mount Říp, and gazed upon all the land that he saw, “This,” he told his followers, “is a land of milk and honey, a land filled with beasts and fowl of all kind, with bees providing honey good to eat, a land rich in crops, such that our tables will always be full, a land ringed by mountains, defensible against every enemy. We will settle here, and make this our home.”</p>
+    <p>Thus did Czech and his people come to settle Bohemia. In time they expanded south into the Morava River valley, too, were they founded Moravia as well.</p>
+    <p>But what about the peoples who had not flocked to the banners of Lech, Czech, and Rus? Those peoples of Charvátská found no solace under the hand of Ermanaric and his Greuthungi followers. Nor did they find acceptance under the Huns who defeated the Greuthungi and pushed them up the Danube—or the Alans who followed, defeating the Huns and making Pannonia their homeland. Of all the peoples who crossed the steppe, only the Bulgars treated them as equals, and so they went south with the Bulgars, helping found and administer their empires, and becoming marchers and wardens on Bulgaria’s mountainous flanks. There did these Sclavoi become the Bulgarians of the Thracian mountains and the Serbs, the Bosniaks, the Croats, the Slovenes, the Macednonians, and the Montenegrins of the Dinaric Alps.</p>
+<h3 class="header">About This Story</h3>
+<p>This story is my own retelling of <a href="https://en.wikipedia.org/wiki/Lech,_Czech,_and_Rus" alt="" id="tribute-link" target="_blank">a founding legend</a> of the Czech and Polish peoples. While the land the Czechs give as Charvátská is likely legendary, the Germanic incursion into the Proto-Slavic homeland is not. Click these links to find more information on:</p>
+  <p class="caption"><a href="https://en.wikipedia.org/wiki/Ermanaric" alt="">Ermanaric</a></p>
+  <p class="caption"><a href="https://en.wikipedia.org/wiki/Greuthungi" alt="">Greuthungi</a></p>
+  <p class="caption"><a href="https://en.wikipedia.org/wiki/Oium" alt="">Oium</a></p>
+  <p class="caption"><a href="https://en.wikipedia.org/wiki/Myrkviðr" alt="">Mirkwood</a></p>
+  <p class="caption"><a href="https://en.wikipedia.org/wiki/Dacians" alt="">Dacians</a></p>
+  <p class="caption"><a href="https://en.wikipedia.org/wiki/Attila" alt="">Attila the Hun</a></p>
+  <p class="caption"><a href="https://en.wikipedia.org/wiki/Alans" alt="">the Alans</a></p>
+  <p class="caption"><a href="https://en.wikipedia.org/wiki/Bulgars" alt="">the Bulgars</a></p>
+</div>
+  </div>
+<p class="img"><a href="https://commons.wikimedia.org/wiki/File:Josef_Mathauser_-_Praotec_%C4%8Cech_na_ho%C5%99e_%C5%98%C3%ADp.jpg#/media/File:Josef_Mathauser_-_Praotec_Čech_na_hoře_Říp.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Josef_Mathauser_-_Praotec_%C4%8Cech_na_ho%C5%99e_%C5%98%C3%ADp.jpg" alt="Josef Mathauser - Praotec Čech na hoře Říp.jpg"></a></p>
+      <p class="caption"><i>Czech on Říp Mountain</i><br>(Painter unknown)</p>
+</main>
